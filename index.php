@@ -1,2 +1,7 @@
 <?php
-    echo json_encode("Mensaje de ok");
+$arrayData = [
+    "aca" => "ñasdñlaskdlñas",
+    "aca" => "miau",
+    "aca" => "madresalvatore"
+];
+echo json_encode($arrayData);
