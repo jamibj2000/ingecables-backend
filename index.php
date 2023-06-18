@@ -34,9 +34,8 @@ for ($i = 0; $i < count($image); $i++) {
         "image" => $image[$i],
         "code" => $code[$i],
         "buttonTitle" => $buttonTitle[$i],
-        "cardTitle" => $cardTitle[$i],
-        "cardContent" => $cardData[$i],
-        "origin" => $origin
+        "title" => $cardTitle[$i],
+        "content" => $cardData[$i]
     ]);
 }
 
