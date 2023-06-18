@@ -1,7 +1,7 @@
 <?php
 $allowedOrigins = array(
     'http://127.0.0.1:5500',
-    'http://ingecables.netlify.app'
+    'https://ingecables.netlify.app'
 );
 
 $origin = $_SERVER['HTTP_ORIGIN'];
