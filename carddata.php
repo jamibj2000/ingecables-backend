@@ -1,4 +1,5 @@
 <?php
+$routeIMG = "https://ingecables-backend-production.up.railway.app/img/";
 $cardData = [ 
     [
         "header" => "6 x 25F + FC",
@@ -30,7 +31,7 @@ $cardData = [
             <tr>
                 <td rowspan='100'>
                     <div class='d-flex justify-content-center rounded overflow-hidden'>
-                        <img src='img/products/FC6x25F.jpg' width='100%' alt=''>
+                        <img src='$routeIMG' width='100%' alt=''>
                     </div>
                 </td>
             </tr>
