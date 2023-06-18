@@ -11,10 +11,10 @@ $cardData = [
         "header" => "6 x 25F + FC",
         "body" => "<table class='table table-striped'>
         <thead class='thead-dark'>
-          <tr class='bg-dark'>
-            <td class='text-light w-25 text-center'>
-                Imagen
-            </td>
+            <tr class='bg-dark'>
+                <td class='text-light w-25 text-center'>
+                    Imagen
+                </td>
                 <td>
                     <span>∅</span>
                     (m.m)
@@ -32,11 +32,12 @@ $cardData = [
                     Min. (kg) 1.960 N/mm<span>2</span>
                 </td>
             </tr>
-            <tr>
+        </thead>
+        <tbody>
             <tr>
                 <td rowspan='100'>
                     <div class='d-flex justify-content-center rounded overflow-hidden'>
-                        <img src='img/products/1x7galvanizado.png' width='100%' alt='>
+                        <img src='img/products/FC6x25F.jpg' width='100%' alt='>
                     </div>
                 </td>
             </tr>
