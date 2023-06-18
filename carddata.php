@@ -1,11 +1,4 @@
 <?php
-$tableHeadStyle = '<table class="table table-striped">
-<thead class="thead-dark">
-  <tr class="bg-dark">
-    <td class="text-light w-25 text-center">
-        Imagen
-    </td>';
-
 $cardData = [ 
     [
         "header" => "6 x 25F + FC",
