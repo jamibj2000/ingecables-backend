@@ -55,7 +55,7 @@ $cardTableContent = [
 ];
 
 for ($i = 0; $i < count($image); $i++) {
-    array_push($APIData[], [
+    array_push($APIData, [
         "image" => $image[$i],
         "code" => $code[$i],
         "buttonTitle" => $buttonTitle[$i],
