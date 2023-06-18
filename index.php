@@ -1,27 +1,5 @@
 <?php
-// $APIData = [
-//     "image" => "img/apple.jpg",
-//     "code" => "AD4613",
-//     "buttonTitle" => "Apple",
-//     "content" => [
-//         "cardTitle" => "Apple-Templates",
-//         "cardTableContent" => "<div></div>"
-//     ],
-//     "image" => "img/banana.jpg",
-//     "code" => "FD4C39",
-//     "buttonTitle" => "Banana",
-//     "content" => [
-//         "cardTitle" => "Banana-Templates",
-//         "cardTableContent" => "<div></div>"
-//     ],
-//     "image" => "img/orange.jpg",
-//     "code" => "TD4X25",
-//     "buttonTitle" => "Orange",
-//     "content" => [
-//         "cardTitle" => "Orange-Templates",
-//         "cardTableContent" => "<div></div>"
-//     ],
-// ];
+header('Access-Control-Allow-Origin: http://127.0.0.1:5500');
 $APIData = [];
 
 $image = [
