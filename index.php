@@ -1,5 +1,5 @@
 <?php
-require_once "access.php";
+require "access.php";
 
 $APIData = [];
 

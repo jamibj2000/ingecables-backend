@@ -1,7 +1,9 @@
 <?php
-require_once "access.php";
+require "access.php";
 $cardData = [
-    "Georgina" => "Plastik"
+    "Georgina" => "Plastik",
+    "d" => "Plastik",
+    "a" => "Plastik",
 ];
 
 
