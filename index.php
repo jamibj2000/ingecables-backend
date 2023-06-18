@@ -27,43 +27,37 @@ $APIData = [];
 $image = [
     "img/apple.jpg",
     "img/banana.jpg",
-    "img/orange.jpg",
+    "img/orange.jpg"
 ];
 
 $code = [
     "AD4613",
     "FD4C39",
-    "TD4X25",
+    "TD4X25"
 ];
 
 $buttonTitle = [
     "Apple",
     "Banana",
-    "Orange",
+    "Orange"
 ];
 
-$content = [
-    "content" => [
-        "cardTitle" => "Apple-Templates",
-        "cardTableContent" => "<div></div>"
-    ],
-    "content" => [
-        "cardTitle" => "Banana-Templates",
-        "cardTableContent" => "<div></div>"
-    ],
-    "content" => [
-        "cardTitle" => "Orange-Templates",
-        "cardTableContent" => "<div></div>"
-    ],
+$cardTitle = [
+    "Apple-template",
+    "Banana-template",
+    "Orange-template"
 ];
+
+$cardTableContent = [];
 
 for ($i = 0; $i < count($image); $i++) {
-    $APIData[] = [
+    array_push($APIData[], [
         "image" => $image[$i],
         "code" => $code[$i],
         "buttonTitle" => $buttonTitle[$i],
-        "content" => $content[$i]
-    ];
+        "cardTitle" => $cardTitle[$i],
+        "cardTableContent" => $cardTableContent[$i]
+    ]);
 }
 
 echo json_encode($APIData);
