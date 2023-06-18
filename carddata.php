@@ -466,7 +466,166 @@ $cardData = [
         </table>"
     ],
     [
-        "header" => "Orange-tableContent",
-        "body" => "<div class='bg-success'>Orange-tableContent</div>",
-    ]
+        "header" => "6 x 36 + IWRC Compactado",
+        "body" => "<table class='table table-striped'>
+        <thead class='thead-dark'>
+            <tr class='bg-dark text-light'>
+                <td class='text-light w-25 text-center'>
+                    Imagen
+                </td>
+                <td>
+                    <span>∅</span>
+                    (m.m)
+                </td>
+                <td>
+                    Peso Aprox.
+                    (Kg/m)
+                </td>
+                <td>
+                    Carga de rotura
+                    Min. (kg) 1.960 N/mm<span>2</span>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <td rowspan='100'>
+                <div class='d-flex justify-content-center rounded overflow-hidden'>
+                    <img src='$routeIMG/IWRC6x36COMP.jpg' width='100%' alt=''>
+                </div>
+            </td> 
+            <tr>
+                <td>
+                    14
+                </td>
+                <td>
+                    0.89
+                </td>
+                <td>
+                    17.210
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    16
+                </td>
+                <td>
+                    1.16
+                </td>
+                <td>
+                    21.117
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    18
+                </td>
+                <td>
+                    1.47
+                </td>
+                <td>
+                    26.727
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    20
+                </td>
+                <td>
+                    1.82
+                </td>
+                <td>
+                    32.994
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    22
+                </td>
+                <td>
+                    2.20
+                </td>
+                <td>
+                    40.010
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    24
+                </td>
+                <td>
+                    2.62
+                </td>
+                <td>
+                    47.517
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    26
+                </td>
+                <td>
+                    3.07
+                </td>
+                <td>
+                    55.764
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    28
+                </td>
+                <td>
+                    3.56
+                </td>
+                <td>
+                    63.753
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    30
+                </td>
+                <td>
+                    4.09
+                </td>
+                <td>
+                    74.246
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    32
+                </td>
+                <td>
+                    4.65
+                </td>
+                <td>
+                    84.472
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    34
+                </td>
+                <td>
+                    5.25
+                </td>
+                <td>
+                    95.364
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    36
+                </td>
+                <td>
+                    5.89
+                </td>
+                <td>
+                    104.327
+                </td>
+            </tr>
+        </tbody>
+        </table>"
+    ]    
 ];

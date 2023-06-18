@@ -8,25 +8,25 @@ $APIData = [];
 $image = [
     "img/FC6x25F.jpg",
     "img/IWRC6x25F.jpg",
-    "img/orange.jpg"
+    "img/IWRC6x36COMP.jpg"
 ];
 
 $code = [
     "FC6x25F",
     "IWRC6x25F",
-    "TD4X25"
+    "IWRC6x36COMP"
 ];
 
 $buttonTitle = [
     "6 x 25F + FC",
-    "Banana",
-    "Orange"
+    "6 x 25F + IWRC",
+    "6 x 36 + IWRC Compactado"
 ];
 
 $cardTitle = [
     "6 x 25F + FC",
     "6 x 25F + IWRC",
-    "Orange-template"
+    "6 x 36 + IWRC Compactado"
 ];
 
 for ($i = 0; $i < count($image); $i++) {
