@@ -48,7 +48,11 @@ $cardTitle = [
     "Orange-template"
 ];
 
-$cardTableContent = [];
+$cardTableContent = [
+    "<div>Apple</div>",
+    "<div>Banana</div>",
+    "<div>Orange</div>"
+];
 
 for ($i = 0; $i < count($image); $i++) {
     array_push($APIData[], [
