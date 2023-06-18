@@ -4,7 +4,7 @@ $cardData = [
         "header" => "6 x 25F + FC",
         "body" => "<table class='table table-striped'>
         <thead class='thead-dark'>
-            <tr class='bg-dark'>
+            <tr class='bg-dark text-light'>
                 <td class='text-light w-25 text-center'>
                     Imagen
                 </td>
@@ -30,7 +30,7 @@ $cardData = [
             <tr>
                 <td rowspan='100'>
                     <div class='d-flex justify-content-center rounded overflow-hidden'>
-                        <img src='img/products/FC6x25F.jpg' width='100%' alt='>
+                        <img src='img/products/FC6x25F.jpg' width='100%' alt=''>
                     </div>
                 </td>
             </tr>
