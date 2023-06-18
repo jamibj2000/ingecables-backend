@@ -6,25 +6,25 @@ require "carddata.php";
 $APIData = [];
 
 $image = [
-    "img/apple.jpg",
+    "img/FC6x25F.jpg",
     "img/banana.jpg",
     "img/orange.jpg"
 ];
 
 $code = [
-    "AD4613",
+    "FC6x25F",
     "FD4C39",
     "TD4X25"
 ];
 
 $buttonTitle = [
-    "Apple",
+    "6 x 25F + FC",
     "Banana",
     "Orange"
 ];
 
 $cardTitle = [
-    "Apple-template",
+    "6 x 25F + FC",
     "Banana-template",
     "Orange-template"
 ];
