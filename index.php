@@ -7,13 +7,13 @@ $APIData = [];
 
 $image = [
     "img/FC6x25F.jpg",
-    "img/banana.jpg",
+    "img/IWRC6x25F.jpg",
     "img/orange.jpg"
 ];
 
 $code = [
     "FC6x25F",
-    "FD4C39",
+    "IWRC6x25F",
     "TD4X25"
 ];
 
@@ -25,7 +25,7 @@ $buttonTitle = [
 
 $cardTitle = [
     "6 x 25F + FC",
-    "Banana-template",
+    "6 x 25F + IWRC",
     "Orange-template"
 ];
 
