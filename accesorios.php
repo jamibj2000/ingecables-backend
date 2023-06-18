@@ -5,7 +5,7 @@ require "access.php";
 $APIData = [];
 
 $image = [
-    "img/CrosbyA1328.jpg",
+    "img/crosbya1328.jpg",
 ];
 
 $code = [
