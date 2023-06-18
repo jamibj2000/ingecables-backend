@@ -1,5 +1,6 @@
 <?php
 require "access.php";
+require "carddata.php";
 
 $APIData = [];
 
@@ -27,19 +28,13 @@ $cardTitle = [
     "Orange-template"
 ];
 
-$cardTableContent = [
-    "<div>Apple</div>",
-    "<div>Banana</div>",
-    "<div>Orange</div>"
-];
-
 for ($i = 0; $i < count($image); $i++) {
     array_push($APIData, [
         "image" => $image[$i],
         "code" => $code[$i],
         "buttonTitle" => $buttonTitle[$i],
         "cardTitle" => $cardTitle[$i],
-        "cardTableContent" => $cardTableContent[$i],
+        "cardContent" => $cardData[$i],
         "origin" => $origin
     ]);
 }

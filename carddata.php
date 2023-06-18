@@ -1,10 +1,12 @@
 <?php
-require "access.php";
 $cardData = [
-    "Georgina" => "Plastik",
-    "d" => "Plastik",
-    "a" => "Plastik",
+    "AD4613" => [
+        "body" => "tableContent",
+    ],
+    "FD4C39" => [
+        "body" => "tableContent",
+    ],
+    "TD4X25" => [
+        "body" => "tableContent",
+    ],
 ];
-
-
-echo json_encode($cardData);
