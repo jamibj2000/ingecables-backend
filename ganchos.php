@@ -8,8 +8,8 @@ $image = [
     "img/crosbya1328.jpg",
     "img/GanchosegS-1316.jpg",
     "img/GanchosegS-1317.jpg",
-    "TensorCrosHG-225",
-    "TensorCrosHG-223",
+    "img/TensorCrosHG-225.jpg",
+    "img/TensorCrosHG-223.jpg",
 ];
 
 $code = [
