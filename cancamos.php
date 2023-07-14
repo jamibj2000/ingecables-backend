@@ -5,23 +5,27 @@ require "access.php";
 $APIData = [];
 
 $image = [
-    "img/TerminalCrosbyG-416.jpg",
-    "img/TerminalCrosbyG-417.jpg"
+    "img/AnillaDIN582.jpg",
+    "img/AnillaDIN580.jpg",
+    "img/AnillaDINoval.jpg"
 ];
 
 $code = [
-    "TerminalCrosbyG-416",
-    "TerminalCrosbyG-417"
+    "AnillaDIN582",
+    "AnillaDIN580",
+    "AnillaDINoval"
 ];
 
 $buttonTitle = [
-    "Terminal cónico abierto",
-    "Terminal cónico cerrado"
+    "Anilla elevación hembra",
+    "Anilla elevación macho",
+    "Anilla elevación oval",
 ];
 
 $cardTitle = [
-    "Terminal cónico abierto Crosby G-416",
-    "Terminal cónico cerrado Crosby G-417"
+    "Anilla de elevación hembra DIN 582",
+    "Anilla de elevación macho DIN 580",
+    "Anilla de elevación oval",
 ];
 
 for ($i = 0; $i < count($image); $i++) {

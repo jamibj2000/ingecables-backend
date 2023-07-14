@@ -5,35 +5,27 @@ require "access.php";
 $APIData = [];
 
 $image = [
-    "img/Templadorcableacero.jpg",
-    "img/TempladorOjo-Quijada.jpg",
-    "img/TempladorQuijada-Quijada.jpg",
-    "img/TempladorinoxidableOjo-Gancho.jpg",
-    "img/TempladorhierroOjo-Gancho.jpg",
+    "img/pastecasSerie500.jpg",
+    "img/pastecasSerie700.jpg",
+    "img/PastecasSerie900.jpg"
 ];
 
 $code = [
-    "Templadorcableacero",
-    "TempladorOjo-Quijada",
-    "TempladorQuijada-Quijada",
-    "TempladorinoxidableOjo-Gancho",
-    "TempladorhierroOjo-Gancho",
+    "PastecasSerie500",
+    "PastecasSerie700",
+    "PastecasSerie900"
 ];
 
 $buttonTitle = [
-    "Templador para Ojo-ojo",
-    "Templador para Ojo-Quijada",
-    "Templador para Quijada-Quijada",
-    "Templador para inoxidable Ojo-Gancho",
-    "Templador para hierro Ojo-Gancho",
+    "Pastecas Serie 500",
+    "Pastecas Serie 700",
+    "Pastecas Serie 900"
 ];
 
 $cardTitle = [
-    "Templador para cable de acero forjado Ojo-Ojo",
-    "Templador para cable de acero forjado Ojo-Quijada",
-    "Templador para cable de acero forjado Quijada-Quijada",
-    "Templador para cable de acero inoxidable Ojo-Gancho",
-    "Templador para cable de acero hierro Ojo-Gancho",
+    "Pastecas Serie 500",
+    "Pastecas Serie 700",
+    "Pastecas Serie 900"
 ];
 
 for ($i = 0; $i < count($image); $i++) {

@@ -10,6 +10,9 @@ $image = [
     "img/GanchosegS-1317.jpg",
     "img/TensorCrosHG-225.jpg",
     "img/TensorCrosHG-223.jpg",
+    "img/falsasmallasG-334.jpg",
+    "img/falsasmallasG-335.jpg",
+    "img/falsasmallasG-pera.jpg",
 ];
 
 $code = [
@@ -18,6 +21,9 @@ $code = [
     "GanchosegS-1317",
     "TensorCrosHG-225",
     "TensorCrosHG-223",
+    "falsasmallasG-334",
+    "falsasmallasG-335",
+    "falsasmallasG-pera",
 ];
 
 $buttonTitle = [
@@ -26,6 +32,9 @@ $buttonTitle = [
     "Gancho Crosby S-1317",
     "Tensor Crosby HG-225",
     "Tensor Crosby HG-223",
+    "Falsas Mallas G-334",
+    "Falsas Mallas G-335",
+    "Falsas Mallas Pera",
 ];
 
 $cardTitle = [
@@ -34,6 +43,9 @@ $cardTitle = [
     "Gancho de seguridad autoblocante directo a cadena Crosby S-1317",
     "Tensor Crosby gancho-cáncamo HG-225",
     "Tensor Crosby gancho-gancho HG-223",
+    "Falsas Mallas G-334",
+    "Falsas Mallas G-335",
+    "Falsas Mallas Pera",
 ];
 
 for ($i = 0; $i < count($image); $i++) {

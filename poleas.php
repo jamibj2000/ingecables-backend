@@ -5,23 +5,19 @@ require "access.php";
 $APIData = [];
 
 $image = [
-    "img/TerminalCrosbyG-416.jpg",
-    "img/TerminalCrosbyG-417.jpg"
+    "img/PoleascablesPMA.jpg",
 ];
 
 $code = [
-    "TerminalCrosbyG-416",
-    "TerminalCrosbyG-417"
+    "PoleascablesPMA",
 ];
 
 $buttonTitle = [
-    "Terminal cónico abierto",
-    "Terminal cónico cerrado"
+    "Poleas de cables PMA",
 ];
 
 $cardTitle = [
-    "Terminal cónico abierto Crosby G-416",
-    "Terminal cónico cerrado Crosby G-417"
+    "Poleas para cables de acero Tipo PMA",
 ];
 
 for ($i = 0; $i < count($image); $i++) {
