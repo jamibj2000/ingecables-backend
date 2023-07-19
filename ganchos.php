@@ -1,5 +1,4 @@
 <?php
-$origin = $_SERVER['HTTP_ORIGIN'];
 require "access.php";
 
 $APIData = [];

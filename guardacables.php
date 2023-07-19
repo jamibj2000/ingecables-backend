@@ -5,27 +5,23 @@ require "access.php";
 $APIData = [];
 
 $image = [
-    "img/PastecasSerie500.jpg",
-    "img/PastecasSerie500.jpg",
-    "img/PastecasSerie900.jpg"
+    "img/guardacableInox.jpg",
+    "img/guardacableReforzado.jpg",
 ];
 
 $code = [
-    "PastecasSerie500",
-    "PastecasSerie700",
-    "PastecasSerie900"
+    "guardacableInox",
+    "guardacableReforzado",
 ];
 
 $buttonTitle = [
-    "Pastecas Serie 500",
-    "Pastecas Serie 700",
-    "Pastecas Serie 900"
+    "Guardacable acero inoxidable",
+    "Guardacable acero reforzado",
 ];
 
 $cardTitle = [
-    "Pastecas Serie 500",
-    "Pastecas Serie 700",
-    "Pastecas Serie 900"
+    "Guardacable de acero inoxidable G-414-SS",
+    "Guardacable de acero reforzado G-414",
 ];
 
 for ($i = 0; $i < count($image); $i++) {
